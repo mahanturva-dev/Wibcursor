@@ -1,0 +1,32 @@
+# Core Streamlit app
+streamlit>=1.28.0,<2.0.0
+
+# LlamaIndex for RAG
+llama-index>=0.13.0
+llama-index-embeddings-openai>=0.5.0
+llama-index-llms-openai>=0.5.0
+llama-index-llms-groq>=0.1.0
+llama-index-embeddings-huggingface>=0.1.0
+llama-index-vector-stores-faiss>=0.5.0
+
+# Vector database
+faiss-cpu>=1.7.4
+
+# PDF parsing
+PyMuPDF>=1.23.0
+
+# LLM API (optional - for OpenAI)
+openai>=1.81.0,<2.0.0
+
+# Free LLM option
+groq>=0.4.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Additional dependencies
+numpy>=1.24.0
+tiktoken>=0.5.0
+pandas>=2.0.0
